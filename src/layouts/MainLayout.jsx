@@ -5,10 +5,18 @@ import Footer from '../components/Shared/Footer/Footer';
 
 const MainLayout = () => {
     return (
-        <div>
-            <Navbar></Navbar>
-            <Outlet></Outlet>
-            <Footer></Footer>
+        <div className='bg-gradient-to-r from-blue-50 via-blue-100 to-blue-200'>
+            <div>
+                <Navbar></Navbar>
+            </div>
+
+            <div>
+                <Outlet></Outlet>
+            </div>
+
+            <div>
+                <Footer></Footer>
+            </div>
         </div>
     );
 };
