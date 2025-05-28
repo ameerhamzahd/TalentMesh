@@ -149,8 +149,8 @@ const Register = () => {
         <div>
             <div className="min-h-screen flex flex-col items-center justify-center pt-30">
                 <h2 className="text-3xl font-bold text-black text-center mb-10">Registration</h2>
-                <div className='grid md:grid-cols-2 w-2/3 mx-auto'>
-                    <div className="p-8 rounded-2xl shadow-2xl backdrop-blur-md bg-white/10 border border-white/30">
+                <div className='flex flex-col-reverse lg:flex-row w-2/3 gap-10 justify-center'>
+                    <div className="p-8 rounded-2xl shadow-2xl backdrop-blur-md bg-white/10 border border-white/30 lg:w-1/2">
                         <form onSubmit={handleRegister} className="space-y-6">
                             <div className="relative">
                                 <FaUser className="absolute left-3 top-4 text-black" />
@@ -265,7 +265,7 @@ const Register = () => {
                         </p>
                     </div>
 
-                    <div className='flex justify-center'>
+                    <div className='flex justify-center items-center'>
                         <Lottie style={{width: "300px"}} animationData={registerLottie} loop={true}></Lottie>
                     </div>
                 </div>
