@@ -28,7 +28,7 @@ const Navbar = () => {
                         </ul>
                     </div>
 
-                    <Link to="/" className="font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent flex items-center gap-2">
+                    <Link to="/" className="font-bold bg-gradient-to-r from-blue-400 via-blue-500 to-blue-600 bg-clip-text text-transparent flex items-center gap-2 text-xl">
                         <img className="w-10 h-10" src={logo} alt="Logo" /> TalentMesh
                     </Link>
                 </div>
@@ -42,7 +42,7 @@ const Navbar = () => {
 
 
                 <div className="navbar-end">
-                    <Link to="/login" className="btn bg-transparent px-6 ml-2 flex items-center gap-2">
+                    <Link to="/login" className="btn bg-transparent px-6 ml-2 flex items-center gap-2 hover:border-primary">
                         <TbLogin2 size={20} /> Login
                     </Link>
                 </div>
